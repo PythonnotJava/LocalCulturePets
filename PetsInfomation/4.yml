@@ -1,0 +1,21 @@
+version : 1.0
+attention : Standard-FLow
+name : 御神•桔梗
+level : 9
+type : 1
+seqnum : 4
+exp : 0
+skills :
+  -
+  -
+  -
+  -
+talent_atrrs :
+  - 5
+  - 20
+  - 2
+  - 20
+  - 20
+  - 20
+  - 2
+  - 2

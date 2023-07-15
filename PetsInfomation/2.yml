@@ -1,0 +1,21 @@
+version : 1.0
+attention : Standard-FLow
+name : 御神魔魇•黑斯廷
+level : 47
+type : 1
+seqnum : 2
+exp : 0
+skills :
+  -
+  -
+  -
+  -
+talent_atrrs :
+  - 20
+  - 200
+  - 20
+  - 200
+  - 20
+  - 2
+  - 2
+  - 20
