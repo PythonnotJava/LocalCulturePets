@@ -1,0 +1,285 @@
+#main {
+    background-color : skyblue;
+}
+
+#close_btn {
+    border : 5px solid darkblue;
+    background-color : red;
+    border-radius : 20px;
+}
+
+#close_btn::pressed {
+    background-color: purple;
+    padding: 15px;
+    border-radius : 20px;
+}
+
+#elf_show{
+    background-color: #58568e;
+     border-radius: 15px;
+}
+
+#elf_name{
+    border-color : none;
+    qproperty-alignment:AlignHCenter;
+    margin-top : 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#talent_elf_area {
+    border-radius : 15px;
+    border : 5px solid tan;
+    background-color : skyblue;
+}
+
+#talent_change_area {
+    border : 5px solid white;
+    border-radius : 10px;
+    background-color : skyblue;
+}
+
+#current_elf_star {
+    border : 5px solid yellow ;
+    border-radius: 10px;
+    background-color : skyblue;
+}
+
+#change_talent_two_buttons{
+    background-color: #58568e;
+    font-size : 18px;
+}
+
+#rdbt1_type1 {
+    background-color : tan;
+    font-size : 18px;
+    border : 2px solid darkblue;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius:15px;
+    padding-left : 15px;
+}
+
+#rdbt2_type2 {
+    background-color : tan;
+    font-size : 18px;
+    border : 2px solid darkblue;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius:15px;
+    padding-left : 15px;
+}
+
+QToolTip {
+    color : red;
+    border : 2px solid white;
+    border-radius:5px;
+    font-size : 18px;
+    font-weight : bold;
+    font-family : 黑体;
+    background-color : lightskyblue;
+}
+
+#confirm_change_talent, #save_change, #cancel_change {
+    border-radius : 15px;
+    border : 5px solid white;
+    font-size:24px;
+    font-weight: bold;
+    background-color : skyblue;
+    font-family : 粗体;
+    color : gold;
+}
+
+#confirm_change_talent:hover {
+    background-color : yellow;
+    color : darkblue;
+}
+
+#confirm_change_talent:pressed {
+    padding-left : 5px;
+    padding-top : 5px;
+    background-color : purple;
+    color : black;
+}
+
+#save_change:hover, #cancel_change:hover{
+    background-color : yellow;
+    color : tan;
+    border-color : gold;
+}
+
+#save_change:pressed, #cancel_change:pressed {
+    padding-left : 8px;
+    font-size : 16px;
+    padding-top:5px;
+    background-color : white;
+    border-color : gold;
+    color : red;
+}
+
+
+#talent_tips {
+    background-color :#58568e;
+}
+
+#original_attr {
+    background-color : skyblue;
+    font-size : 18px;
+    font-weight:bold;
+    color : gold;
+    border : none;
+
+}
+
+#new_attr {
+    background-color :  skyblue;
+    font-size : 18px;
+    font-weight:bold;
+    color : gold;
+    border : none;
+}
+
+#talent_change_show {
+    background-color :  skyblue;
+    font-size : 18px;
+    font-weight:bold;
+    color : gold;
+    border : none;
+}
+
+#total_talent_values_label{
+    border : none;
+    font-size:18px;
+    font-weight:bold;
+    color:gold;
+}
+
+#total_talent_values_line {
+    background-color : skyblue;
+    border : 2px solid white;
+    color:white;
+    border-radius : 10px;
+    qproperty-alignment:AlignHCenter;
+    font-size : 18px;
+    font-weight:bold;
+}
+
+#total_talent_values_change_label {
+    border : none;
+    font-size:18px;
+    font-weight:bold;
+    color:gold;
+}
+
+#total_talent_values_change_line{
+    background-color : skyblue;
+    border : 2px solid white;
+    border-radius : 10px;
+    color:white;
+    qproperty-alignment:AlignHCenter;
+    font-size : 18px;
+    font-weight:bold;
+}
+
+#elf_bags_area {
+    background-color :#58568e;
+    border-radius : 15px;
+    border : 3px solid white;
+}
+
+GridPushButton {
+    background-color :#58568e;
+    border-radius : 15px;
+    border-color : #58568e;
+}
+
+GridPushButton:pressed {
+    pdding-left : 5px;
+    padding-top : 5px;
+    background-color : #58568e;
+    color : black;
+}
+
+GridPushButton:disabled {
+    background-color : #58568e;
+}
+
+_Label {
+    border : none;
+    font-size : 18px;
+    font-weight:bold;
+    color : white;
+}
+
+_ProgressBar_origianl {
+    background-color : orange;
+    border-radius : 10px;
+    border : 2px solid skyblue;
+    text-align:center;
+    font-size : 12px;
+    font-weight : 900;
+    color : #000FFF;
+    font-family : Arial;
+}
+
+_ProgressBar_new {
+    background-color: white;
+    border-radius : 10px;
+    border : 2px solid skyblue;
+    text-align:center;
+    font-size : 12px;
+    font-weight : 900;
+    color : #000FFF;
+    font-family : Arial;
+}
+
+_ProgressBar_change {
+    background-color: yellow;
+    border-radius : 10px;
+    border : 2px solid  skyblue;
+    text-align:center;
+    font-size : 12px;
+    font-weight : 900;
+    color : #000FFF;
+    font-family : Arial;
+}
+
+QProgressBar::chunk{
+    background: qlineargradient(
+        spread:pad, x1:0, y1:0, x2:1, y2:0,
+        stop:0 #0078CC, stop:1 #00CC66
+    );
+    border-radius: 5px;
+}
+
+#baseWidget{
+    background-color : lightskyblue;
+    border-radius : 15px;
+}
+
+#button{
+    color : white;
+    border-radius : 5px;
+    border : 5px solid white;
+    background-color : skyblue;
+    font-size : 22px;
+    font-weight:bold;
+    font-family : Arial;
+}
+#button:pressed{
+    color : white;
+    border-radius : 5px;
+    border : 5px solid white;
+    background-color : lightskyblue;
+    font-size :18px;
+    font-weight:bold;
+    font-family : Arial;
+}
+#centerLabel{
+    color : white;
+    border-radius : 15px;
+    border : 5px solid white;
+    background-color : skyblue;
+    qproperty-alignment:AlignCenter;
+    font-size : 32px;
+    font-weight :bold;
+    font-family : Arial;
+}
