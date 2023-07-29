@@ -34,7 +34,7 @@ class AnimationMessageBoxLog(QWidget):
         if modal:
             self.setWindowModality(Qt.WindowModal)
 
-    def setAnimation(self, _type : str, target : str, start : Any, end : Any, duration : int = 1000, loop : int = 1):
+    def setAnimation(self, _type : str, target : QObject, start : Any, end : Any, duration : int = 1000, loop : int = 1):
         _animation = QPropertyAnimation(self)
         _animation.setPropertyName(_type.encode())
         _animation.setTargetObject(target)
